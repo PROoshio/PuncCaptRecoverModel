@@ -13,4 +13,8 @@
     - **CRF-layer** : 对LSTM-Softmax输出加以约束，提高精度
   - 结构图如下：
   ![image](https://github.com/PROosho/PuncCaptRecoverModel/blob/master/model_achitecture.jpg)
-
+  - 在测试集上的精度：
+    - **Capt**    : **Precision**: 0.89541 | **Recall**: 0.82175 | **F1**: 0.85700
+    - **Comma**   : **Precision**: 0.75975 | **Recall**: 0.73784 | **F1**: 0.74863 
+    - **Period**  : **Precision**: 0.81044 | **Recall**: 0.73879 | **F1**: 0.77296
+    - **Question**: **Precision**: 0.76760 | **Recall**: 0.63362 | **F1**: 0.69420
