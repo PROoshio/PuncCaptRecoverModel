@@ -11,6 +11,6 @@
     - **Highway-layer** : 设置转换gate,加入可学习的门限机制，类似于LSTM，不过是在embedding位置
     - **bi-LSTM-layer** : layers = 2；hidden_size = 256
     - **CRF-layer** : 对LSTM-Softmax输出加以约束，提高精度
-  - 结构图如下：
-  ![image](https://github.com/PROosho/PuncCaptRecoverModel/blob/master/CNN%2BLSTM.jpg)
+  - 结构图如下：
+  ![image](https://github.com/PROosho/PuncCaptRecoverModel/blob/master/model_achitecture.jpg)
 
