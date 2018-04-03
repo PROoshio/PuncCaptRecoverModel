@@ -4,7 +4,7 @@
   - 优点：对训练样本表征很好，在训练样本中出现的情况都能够正确的标注；
   - 缺点：模型泛化能力不够，不能学习长句的上下文信息，语言模型较大；
   - 训练和测试：语料 ( gutenberg语料库 ) 10million sentences; 
-  - 在测试集上的精度：
+  - 在测试集上的精度(LanguageModel_gutenberg.klm (3grams版本 1.4G))：
     - **Capt**    : **Precision**: 0.8728 | **Recall**: 0.7644 | **F1**: 0.8150
     - **Comma**   : **Precision**: 0.6273 | **Recall**: 0.6105 | **F1**: 0.6188 
     - **Period**  : **Precision**: 0.725 | **Recall**: 0.5673 | **F1**: 0.6366
