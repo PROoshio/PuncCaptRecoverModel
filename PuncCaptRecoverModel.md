@@ -5,6 +5,10 @@
   - 缺点：模型泛化能力不够，不能学习长句的上下文信息，语言模型较大；
   - 训练和测试：语料 ( gutenberg语料库 ) 10million sentences; 
   - 在测试集上的精度：
+    - **Capt**    : **Precision**: 0.8728 | **Recall**: 0.7644 | **F1**: 0.8150
+    - **Comma**   : **Precision**: 0.6273 | **Recall**: 0.6105 | **F1**: 0.6188 
+    - **Period**  : **Precision**: 0.725 | **Recall**: 0.5673 | **F1**: 0.6366
+    - **Num of Capt**: 889295 | **Num of Punc**: 1058970
 - 基于字符级嵌入的深度学习模型：
   - 模型结构：
     - **CNN-layer** : conv_size = [1,2,3,4,5,6]；conv_depth = 25*[1,2,3,4,5,6]，将单词按照字符级别embedding
@@ -13,7 +17,7 @@
     - **CRF-layer** : 对LSTM-Softmax输出加以约束，提高精度
   - 结构图如下：
   ![image](https://github.com/PROosho/PuncCaptRecoverModel/blob/master/model_achitecture.jpg)
-  - 在测试集上的精度：
+  - 在测试集上的精度：
     - **Capt**    : **Precision**: 0.89541 | **Recall**: 0.82175 | **F1**: 0.85700
     - **Comma**   : **Precision**: 0.75975 | **Recall**: 0.73784 | **F1**: 0.74863 
     - **Period**  : **Precision**: 0.81044 | **Recall**: 0.73879 | **F1**: 0.77296
