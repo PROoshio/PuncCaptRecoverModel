@@ -1,3 +1,3 @@
 # PuncCaptRecoverModel
-Punctuation and capitalization recover model for ASR
-Model architecture and evaluation is in this file.
+Punctuation and capitalization recover model for ASR,
+Model architecture and evaluation are in this file.
